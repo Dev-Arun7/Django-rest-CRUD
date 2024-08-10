@@ -1,0 +1,56 @@
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+
+# React
+node_modules/
+build/
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# PostgreSQL
+*.pgpass
+*.pgpass.conf
+
+# Editor files
+*.sublime-project
+*.sublime-workspace
+*.vscode
+
+# Compiled output
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Dependencies
+node_modules/
+
+
+
+
+
+
+
+
