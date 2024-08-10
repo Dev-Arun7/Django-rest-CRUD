@@ -1,0 +1,65 @@
+# Drinks API
+
+This is a simple Django REST Framework API for managing a collection of drinks.
+
+## Features
+
+- List all drinks
+- Create a new drink
+- Retrieve details of a specific drink
+- Update a specific drink
+- Delete a specific drink
+
+## API Endpoints
+
+- `GET /drinks/`: List all drinks
+- `POST /drinks/`: Create a new drink
+- `GET /drinks/<id>/`: Retrieve a specific drink
+- `PUT /drinks/<id>/`: Update a specific drink
+- `DELETE /drinks/<id>/`: Delete a specific drink
+
+## Setup
+
+1. Clone the repository:
+git clone https://github.com/yourusername/drinks-api.git
+cd drinks-api
+
+2. Install the required dependencies:
+pip install -r requirements.txt
+
+3. Run migrations:
+python manage.py migrate
+
+4. Start the development server:
+python manage.py runserver
+
+## Usage
+
+### List all drinks
+GET /drinks/
+
+### Create a new drink
+POST /drinks/
+
+### Retrieve a specific drink
+GET /drinks/<id>/
+
+### Update a specific drink
+PUT /drinks/<id>/
+
+### Delete a specific drink
+DELETE /drinks/<id>/
+
+## Models
+
+### Drink
+
+- `name`: The name of the drink
+- `description`: A description of the drink
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
